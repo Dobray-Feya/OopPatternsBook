@@ -8,6 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Flying\" />
+    <Folder Include="Quacking\" />
     <Folder Include="RealDucks\" />
   </ItemGroup>
 
