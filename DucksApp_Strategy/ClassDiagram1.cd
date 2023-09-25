@@ -4,8 +4,8 @@
     <Position X="3.25" Y="1" Width="1.5" />
     <AssociationLine Name="FlyingBehavior" Type="DucksApp.Flying.FlyingBehavior" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="4.75" Y="1.75" />
-        <Point X="5.74" Y="1.75" />
+        <Point X="4.75" Y="1.687" />
+        <Point X="5.74" Y="1.687" />
         <Point X="5.74" Y="1.157" />
         <Point X="8.625" Y="1.157" />
         <Point X="8.625" Y="1.5" />
@@ -13,15 +13,15 @@
     </AssociationLine>
     <AssociationLine Name="QuackingBehavior" Type="DucksApp.Quacking.QuackingBehavior" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="4.75" Y="1.688" />
-        <Point X="5.603" Y="1.688" />
+        <Point X="4.75" Y="1.631" />
+        <Point X="5.603" Y="1.631" />
         <Point X="5.603" Y="0.822" />
         <Point X="13.5" Y="0.822" />
         <Point X="13.5" Y="1.5" />
       </Path>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAABAQAAAAAAAAAAIAAQQAAQAAACAACAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAABAQAAAAAAAAAAIAAQQAAQAAACAAAAAAAAAAAAA=</HashCode>
       <FileName>Duck.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
