@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Исходный абстрактный класс">
+    <Position X="1.077" Y="2.057" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Конкретные реализации исходного класса">
+    <Position X="0.5" Y="5.278" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Класс-декоратор реализует &quot;интерфейс&quot; исходного класса.&#xD;&#xA;Содержит ссылку на экземпляр исходного класса.&#xD;&#xA;Через эту ссылку можно определить новое поведение для  конкретных декораторов. ">
+    <Position X="11.52" Y="1.996" Height="2.037" Width="2.558" />
+  </Comment>
+  <Comment CommentText="Конкретные дектораторы. &#xD;&#xA;Здесь общее поведение вынесла в класс декоратора, а в конкретных классах задаются только значения отличающихся параметров.">
+    <Position X="13.34" Y="5.751" Height="2.028" Width="1.954" />
+  </Comment>
+  <Class Name="IceCreamApp.IceCreamsTypes.IceCream">
+    <Position X="3.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAQAAAAAAACAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IceCreamsTypes\IceCream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IceCreamApp.IceCreamsTypes.CreamyIceCream">
+    <Position X="2.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IceCreamsTypes\CreamyIceCream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IceCreamApp.IceCreamsTypes.ChocolateIceCream">
+    <Position X="4.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IceCreamsTypes\ChocolateIceCream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IceCreamApp.Additives.Additive">
+    <Position X="9" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAQiAAAQAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Additives\Additive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IceCreamApp.Additives.ChocolateAdditive">
+    <Position X="7.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Additives\ChocolateAdditive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IceCreamApp.Additives.JamAdditive">
+    <Position X="9.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Additives\JamAdditive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IceCreamApp.Additives.NutsAdditive">
+    <Position X="11.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Additives\NutsAdditive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Leelawadee UI" Size="10" />
+</ClassDiagram>
